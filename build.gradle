@@ -28,7 +28,7 @@ apply plugin: 'maven-publish'
 
 ext {
     libraryVersion = '2.3.2'
-    publishedGroupId = 'com.budiyev.android'
+    publishedGroupId = 'de.philippdormann.android'
 }
 
 group = publishedGroupId

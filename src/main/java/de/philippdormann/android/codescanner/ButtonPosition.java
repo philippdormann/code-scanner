@@ -1,4 +1,4 @@
-package com.budiyev.android.codescanner;
+package de.philippdormann.android.codescanner;
 
 /**
  * Button position
