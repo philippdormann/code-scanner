@@ -35,12 +35,12 @@ group = publishedGroupId
 version = libraryVersion
 
 android {
-    compileSdkVersion 32
-    buildToolsVersion '32.0.0'
+    compileSdk 33
+    buildToolsVersion '33.0.0'
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode 63
         versionName libraryVersion
     }
@@ -59,8 +59,8 @@ android {
 }
 
 dependencies {
-    api 'com.google.zxing:core:3.3.3'
-    api 'androidx.annotation:annotation:1.4.0'
+    api 'com.google.zxing:core:3.5.0'
+    api 'androidx.annotation:annotation:1.5.0'
 }
 
 task sourcesJar(type: Jar) {
